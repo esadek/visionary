@@ -28,7 +28,7 @@ button.onclick = function changeResult() {
     var index = Math.floor(Math.random() * 20);
     result.innerHTML = results[index];
     if (index < 10) {
-        result.style.color = "green";
+        result.style.color = "limegreen";
     } else if (index < 15) {
         result.style.color = "yellow";
     } else {

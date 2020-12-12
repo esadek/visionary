@@ -1,5 +1,5 @@
 body {
-    background-image: linear-gradient(#EEF2F3, #8E9EAB);
+    background-image: linear-gradient(to top, #DFE9F3 0%,#FFFFFF 100%);
     color: #FFFFFF;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     display: flex;
@@ -7,6 +7,7 @@ body {
     justify-content: center;
     height: 100vh;
     overflow: hidden;
+    margin: 0;
 }
 
 #container {

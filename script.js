@@ -21,17 +21,17 @@ var results = [
     "Very doubtful."
 ]
 
-var result = document.getElementById("result");
-var button = document.getElementById("btn");
+var result = document.getElementById("result")
+var button = document.getElementById("btn")
 
 button.onclick = function changeResult() {
-    var index = Math.floor(Math.random() * 20);
+    var index = Math.floor(Math.random() * 20)
     result.innerHTML = results[index];
     if (index < 10) {
-        result.style.color = "limegreen";
+        result.style.color = "limegreen"
     } else if (index < 15) {
-        result.style.color = "yellow";
+        result.style.color = "yellow"
     } else {
-        result.style.color = "red";
+        result.style.color = "red"
     }
 }

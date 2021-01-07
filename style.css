@@ -1,7 +1,7 @@
 body {
     background-color: #000000;
     color: #FFFFFF;
-    font-family: 'Concert One', cursive;
+    font-family: 'Roboto Condensed', sans-serif;
     font-size: 5rem;
     height: 100vh;
     overflow: hidden;
@@ -17,7 +17,7 @@ body {
 #btn {
     background-color: #000000;
     color: #FFFFFF;
-    font-family: 'Concert One', cursive;
+    font-family: 'Roboto Condensed', sans-serif;
     font-size: 5rem;
     cursor: pointer;
     border: 0;

@@ -1,4 +1,4 @@
-var results = [
+const results = [
     "It is certain.",
     "It is decidedly so.",
     "Without a doubt.",
@@ -21,11 +21,11 @@ var results = [
     "Very doubtful."
 ]
 
-var result = document.getElementById("result")
-var button = document.getElementById("btn")
+const result = document.getElementById("result")
+const button = document.getElementById("btn")
 
 button.onclick = function changeResult() {
-    var index = Math.floor(Math.random() * 20)
+    const index = Math.floor(Math.random() * 20)
     result.innerHTML = results[index];
     if (index < 10) {
         result.style.color = "#2ECC40"

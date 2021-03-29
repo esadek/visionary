@@ -22,8 +22,9 @@ const results = [
 ]
 
 const result = document.getElementById("result")
+const button = document.getElementById("btn")
 
-window.onclick = function changeResult() {
+button.onclick = function changeResult() {
     const index = Math.floor(Math.random() * 20)
     result.innerHTML = results[index];
     if (index < 10) {
